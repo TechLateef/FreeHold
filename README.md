@@ -135,7 +135,7 @@ $ anvil
 ---
 
 ## **Contributing**  
-We welcome contributions to **[Project Name]**! If you find bugs, want to suggest improvements, or add features, feel free to open an issue or a pull request.  
+We welcome contributions to **Freehold**! If you find bugs, want to suggest improvements, or add features, feel free to open an issue or a pull request.  
 
 ---
 
