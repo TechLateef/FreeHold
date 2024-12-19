@@ -1,5 +1,3 @@
-
-
 // // SPDX-License-Identifier: MIT
 
 // // Have our invariant aka properties
@@ -18,8 +16,4 @@
 // import {DeployDSC} from "../../script/DeployDSC.s.sol";
 // import {}
 
-
-// contract 
-
-
-
+// contract

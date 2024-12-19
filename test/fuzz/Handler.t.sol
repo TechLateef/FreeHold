@@ -8,7 +8,8 @@ import {Test, console} from "forge-std/Test.sol";
 import {DecentralizedStableCoin} from "../../src/DecentralizedStableCoin.sol";
 import {DSCEngine} from "../../src/DSCEngine.sol";
 import {ERC20Mock} from "../mocks/ERC20Mock.sol";
-import {MockV3Aggregator}from "../mocks/MockV3Aggregator.sol";
+import {MockV3Aggregator} from "../mocks/MockV3Aggregator.sol";
+
 contract Handler is Test {
     DSCEngine dsce;
     DecentralizedStableCoin dsc;
@@ -76,11 +77,11 @@ contract Handler is Test {
         dsce.redeemColleteral(address(collateral), amountCollateral);
     }
 
-// This breaks our invariant test suite!!!
-// function updateCollateralPrice(uint96 newPrice) public {
-//     int256 newPriceInt = int256(uint256(newPrice));
-//     ethUsdPriceFeed.updateAnswer(newPriceInt);
-// }
+    // This breaks our invariant test suite!!!
+    // function updateCollateralPrice(uint96 newPrice) public {
+    //     int256 newPriceInt = int256(uint256(newPrice));
+    //     ethUsdPriceFeed.updateAnswer(newPriceInt);
+    // }
     // Helpe function
     function _getCollateralFromSeed(uint256 collateralSeed) private view returns (ERC20Mock) {
         if (collateralSeed % 2 == 0) {

@@ -1,5 +1,3 @@
-
-
 // SPDX-License-Identifier: MIT
 
 // Have our invariant aka properties
@@ -30,7 +28,7 @@ contract Invariants is StdInvariant, Test {
     address wbtc;
     Handler handler;
 
-    function setUp() external  {
+    function setUp() external {
         deployer = new DeployDSC();
         (dsc, dsce, config) = deployer.run();
         (,, weth, wbtc,) = config.activeNetworkConfig();
@@ -46,7 +44,6 @@ contract Invariants is StdInvariant, Test {
         uint256 wethValue = dsce.getUsdValue(weth, totalWethDeposited);
         uint256 wbtcValue = dsce.getUsdValue(wbtc, totalBtcDeposited);
 
-
         console.log("weth value: ", wethValue);
         console.log("wbtc value: ", wbtcValue);
         console.log("total supply: ", totalSupply);
@@ -55,10 +52,5 @@ contract Invariants is StdInvariant, Test {
         assert(wethValue + wbtcValue >= totalSupply);
     }
 
-    function invriant_gettersShouldNotRevert() public view {
-        
-    }
+    function invriant_gettersShouldNotRevert() public view {}
 }
-
-
-
