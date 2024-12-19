@@ -6,7 +6,7 @@
 [![Solidity](https://img.shields.io/badge/solidity-^0.8.0-lightgrey)]  
 
 ## **Introduction**  
-**[Project Name]** is a decentralized, algorithmically stabilized stablecoin protocol built on Ethereum. It leverages collateralized crypto assets and a robust stability mechanism to maintain a $1.00 peg. With a focus on decentralization, transparency, and security, the protocol empowers users to mint stablecoins backed by wETH and wBTC.  
+**Freehold*** is a decentralized, algorithmically stabilized stablecoin protocol built on Ethereum. It leverages collateralized crypto assets and a robust stability mechanism to maintain a $1.00 peg. With a focus on decentralization, transparency, and security, the protocol empowers users to mint stablecoins backed by wETH and wBTC.  
 
 ---
 
