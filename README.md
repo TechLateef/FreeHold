@@ -6,7 +6,7 @@
 [![Solidity](https://img.shields.io/badge/solidity-^0.8.0-lightgrey)]  
 
 ## **Introduction**  
-**Freehold*** is a decentralized, algorithmically stabilized stablecoin protocol built on Ethereum. It leverages collateralized crypto assets and a robust stability mechanism to maintain a $1.00 peg. With a focus on decentralization, transparency, and security, the protocol empowers users to mint stablecoins backed by wETH and wBTC.  
+**Freehold** is a decentralized, algorithmically stabilized stablecoin protocol built on Ethereum. It leverages collateralized crypto assets and a robust stability mechanism to maintain a $1.00 peg. With a focus on decentralization, transparency, and security, the protocol empowers users to mint stablecoins backed by wETH and wBTC.  
 
 ---
 
@@ -147,27 +147,3 @@ We welcome contributions to **[Project Name]**! If you find bugs, want to sugges
 ## **Acknowledgments**  
 - Inspired by MakerDAO and other decentralized stablecoin protocols.  
 - Thanks to the Chainlink community for reliable oracle services.  
-
-
-## Usage
-
-#
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
